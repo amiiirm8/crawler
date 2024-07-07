@@ -6,7 +6,7 @@ import os
 # Add the parent directory of 'scripts' to sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from scripts.utils import load_config  # Now it should find utils
+from utils import load_config  # Now it should find utils
 
 # Load configuration
 config = load_config('../config/config.json')  # Adjusted path
