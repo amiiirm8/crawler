@@ -6,7 +6,6 @@ This project contains a web crawler that collects datasets from specified websit
 ## Directory Structure
 - `config/`: Contains the configuration file.
 - `logs/`: Stores log files.
-- `scripts/`: Contains the main and utility scripts.
 - `datasets/`: Stores the output CSV files.
 - `requirements.txt`: Lists the project dependencies.
 - `run_crawler.sh`: Shell script to run the crawler.
@@ -16,7 +15,7 @@ This project contains a web crawler that collects datasets from specified websit
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/your-repo/web_crawler_project.git
-    cd web_crawler_project
+    
     ```
 
 2. **Set up a virtual environment** (optional but recommended):
