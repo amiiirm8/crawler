@@ -1,0 +1,34 @@
+{
+    "websites": [
+        "https://arxiv.org",
+        "https://paperswithcode.com",
+        "https://google.com"
+    ],
+    
+    "keywords": [
+        "Fundus Glaucoma",
+        "photo Slit Glaucoma"
+    ],
+    
+    "queries": [
+        "Retinopathy Diabetic OCT" 
+    ],
+    "schedule_interval": "weekly",
+    "csv_filename": "../datasets/images_dataset.csv", 
+    "log_filename": "../logs/web_crawler.log",
+    "db_config": {
+        "host": "localhost",
+        "database": "webcrawlerdb",
+        "user": "webcrawleruser",
+        "password": "12345678d",
+        "port": 5432
+    },
+    "email_notifications": {
+        "enabled": true,
+        "smtp_server": "smtp.your_email_provider.com",
+        "smtp_port": 587,
+        "email_from": "your_email@provider.com",
+        "email_to": "admin_email@provider.com",
+        "email_subject": "Web Crawler Report"
+    }
+}

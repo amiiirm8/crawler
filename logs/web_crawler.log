@@ -1,0 +1,79 @@
+INFO:root:Database connection and table creation successful.
+INFO:root:Database connection and table creation successful.
+2024-07-06 18:18:45,579:ERROR:Unexpected error scraping https://paperswithcode.com with query Retinopathy Diabetic OCT: 'NoneType' object has no attribute 'text'
+2024-07-06 18:18:45,580:ERROR:Scraping not implemented for site: https://google.com
+2024-07-06 18:18:45,768:ERROR:Error saving data to database: 'size'
+2024-07-06 18:19:58,912:ERROR:Unexpected error scraping https://paperswithcode.com with query Fundus Glaucoma: 'NoneType' object has no attribute 'text'
+2024-07-06 18:19:58,912:ERROR:Scraping not implemented for site: https://google.com
+2024-07-06 18:19:59,042:ERROR:Error saving data to database: 'size'
+2024-07-06 18:36:28,700:ERROR:Scraping not implemented for site: https://google.com
+2024-07-06 18:36:29,375:ERROR:Error saving data to database: relation "images" does not exist
+LINE 2:                 INSERT INTO images (query, url, size, format...
+                                    ^
+
+2024-07-06 19:25:51,100:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-06 19:26:27,744:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-06 19:26:27,745:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-06 19:26:43,770:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=Fundus Glaucoma: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-07-06 19:26:43,771:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=Fundus Glaucoma. Adjust parsing logic if necessary.
+2024-07-06 19:26:43,771:ERROR:Scraping not implemented for site: https://google.com
+2024-07-06 19:26:44,079:ERROR:Error saving data to database: relation "images" does not exist
+LINE 2:                 INSERT INTO images (query, url, size, format...
+                                    ^
+
+2024-07-07 11:52:07,234:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 11:52:09,049:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 11:52:09,050:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 11:52:11,320:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 11:52:16,416:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=Fundus Glaucoma: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=Fundus%20Glaucoma
+2024-07-07 11:52:16,417:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=Fundus Glaucoma. Adjust parsing logic if necessary.
+2024-07-07 11:52:16,417:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:06:22,630:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:06:24,480:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:06:24,481:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:06:27,235:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:06:27,236:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:06:33,326:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=Fundus Glaucoma: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=Fundus%20Glaucoma
+2024-07-07 12:06:33,327:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=Fundus Glaucoma. Adjust parsing logic if necessary.
+2024-07-07 12:06:33,327:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:08:34,087:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:08:35,449:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:08:35,450:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:08:37,018:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:08:37,019:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:08:43,474:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=deep learning: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=deep%20learning
+2024-07-07 12:08:43,476:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=deep learning. Adjust parsing logic if necessary.
+2024-07-07 12:08:43,476:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:09:23,767:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:09:24,951:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:09:24,951:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:09:27,235:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:09:27,236:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:09:32,596:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=image segmentation: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=image%20segmentation
+2024-07-07 12:09:32,598:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=image segmentation. Adjust parsing logic if necessary.
+2024-07-07 12:09:32,598:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:10:08,785:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:10:09,941:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:10:09,941:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:10:12,381:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:10:12,382:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:10:17,548:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=neural networks: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=neural%20networks
+2024-07-07 12:10:17,549:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=neural networks. Adjust parsing logic if necessary.
+2024-07-07 12:10:17,549:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:10:39,265:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:10:40,474:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:10:40,474:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:10:42,660:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:10:42,661:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:10:48,436:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=object detection: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=object%20detection
+2024-07-07 12:10:48,437:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=object detection. Adjust parsing logic if necessary.
+2024-07-07 12:10:48,437:ERROR:Scraping not implemented for site: https://google.com
+2024-07-07 12:11:14,609:WARNING:HTML structure verification failed for https://arxiv.org. Adjust parsing logic if necessary.
+2024-07-07 12:11:15,800:ERROR:Error verifying HTML structure for https://paperswithcode.com: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/
+2024-07-07 12:11:15,801:WARNING:HTML structure verification failed for https://paperswithcode.com. Adjust parsing logic if necessary.
+2024-07-07 12:11:17,527:ERROR:Unexpected error verifying HTML structure for https://google.com: cannot access local variable 'required_tags' where it is not associated with a value
+2024-07-07 12:11:17,528:WARNING:HTML structure verification failed for https://google.com. Adjust parsing logic if necessary.
+2024-07-07 12:11:22,867:ERROR:Error verifying HTML structure for https://paperswithcode.com/search?q=reinforcement learning: 502 Server Error: Bad Gateway for url: https://paperswithcode.com/search?q=reinforcement%20learning
+2024-07-07 12:11:22,867:WARNING:HTML structure verification failed for https://paperswithcode.com/search?q=reinforcement learning. Adjust parsing logic if necessary.
+2024-07-07 12:11:22,867:ERROR:Scraping not implemented for site: https://google.com
+INFO:root:Database connection and table creation successful.
